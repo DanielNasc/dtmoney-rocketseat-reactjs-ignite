@@ -22,18 +22,18 @@ export const Container = styled.div`
       background: var(--shape);
       color: var(--text-body);
       border-radius: 0.25rem;
+
+      &.deposit {
+        color: var(--green);
+      }
+
+      &.withdraw {
+        color: var(--red);
+      }
     }
 
     &:first-child {
       color: var(--text-title);
-    }
-
-    &.deposit {
-      color: var(--green);
-    }
-
-    &.withdrawal {
-      color: var(--red);
     }
   }
 `;
